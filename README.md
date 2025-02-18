@@ -44,7 +44,7 @@ docker run --rm --env-file .env ai-studio-docker
 
 # 📂 Project Structure
 
-# 📦 ai-studio-docker
+ 📦 ai-studio-docker
 
  ┣ 📜 app.py           # Main Python script
  ┣ 📜 Dockerfile       # Docker configuration
