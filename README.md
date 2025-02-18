@@ -19,28 +19,29 @@ Welcome to AI Studio Dockerized, where we bring AI magic to your local machine u
 🛠️ Setup & Installation  
 
 1️⃣ Install Dependencies (if running locally without Docker)
-pip install -r requirements.txt
+**pip install -r requirements.txt**
 2️⃣ Set Up Your API Key
 Create a .env file in the project folder and add:
-GEMINI_API_KEY=your_actual_api_key
+**GEMINI_API_KEY=your_actual_api_key**
 3️⃣ Run the Code (Without Docker)
-python app.py
+**python app.py**
 
 ---
 
 🐳 Running in Docker
 
 1️⃣ Build the Docker Image
-docker build -t ai-studio-docker
+**docker build -t ai-studio-docker**
 2️⃣ Run the Docker Container
-docker run --rm --env-file .env ai-studio-docker
+**docker run --rm --env-file .env ai-studio-docker**
+
 🎉 Boom! Your AI model is now running inside a Docker container! 🚀 .
 
 ---
 
  🔥 Example Output
 
-🤖 AI Response: "9.9 is bigger than 9.11 in numerical comparison!"
+🤖**AI Response: "9.9 is bigger than 9.11 in numerical comparison!"**
 
 ---
 
